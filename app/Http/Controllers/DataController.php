@@ -2,16 +2,35 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\DataService;
+use Exception;
 use Illuminate\Http\Request;
 
 class DataController extends Controller
 {
+    protected $dataService;
+    public function __construct(DataService $dataService)
+    {
+        $this->dataService = $dataService;
+    }
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
         return view("data.index", []);
+    }
+
+    public function paginate(Request $request){
+        try {
+            return response()->json($this->dataService->paginate($request), 200);
+        } catch (Exception $e) {
+            return response()->json([
+                "code" => 500,
+                "title" => "Error",
+                "message" => $e->getMessage(),
+            ], 500);
+        }
     }
 
     /**
@@ -27,7 +46,15 @@ class DataController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        try {
+            return response()->json($this->dataService->createData($request->all()));
+        } catch (Exception $e) {
+            return response()->json([
+                "code" => 500,
+                "title" => "Error",
+                "message" => $e->getMessage(),
+            ], 500);
+        }
     }
 
     /**
