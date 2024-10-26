@@ -27,9 +27,11 @@
         <div class="col-xl-12">
             <div class="card custom-card">
                 <div class="card-header">
-                    <div class="card-title">File Export Datatable</div>
+                    <div class="card-title">Data Export Import</div>
                 </div>
                 <div class="card-body">
+                    <div id="loading-overlay" style="display:none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.7); z-index: 10; text-align: center; line-height: 100px;">
+                      </div>
                     <div class="table-responsive">
                         <table id="table-dt" class="table table-bordered text-nowrap w-100">
                             <thead>
@@ -142,12 +144,10 @@
             ],
         });
         table.on('preXhr.dt', function () {
-            $('#table-dt').hide();
-            TopLoaderService.start();
+            $('#loading-overlay').show();
         });
         table.on('xhr.dt', function () {
-            $('#table-dt').show();
-            TopLoaderService.end();
+            $('#loading-overlay').hide();
         });
         table.on('draw.dt', function () {});
     </script>
