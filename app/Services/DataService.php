@@ -20,7 +20,12 @@ class DataService {
 
         if ($search) {
             $query->where(function($q) use ($search){
-                $q->where("Product", "LIKE", "%$search%");
+                $q->where("Product", "LIKE", "%$search%")
+                ->orWhere("Country", "LIKE", "%$search%")
+                ->orWhere("ShippingMethod", "LIKE", "%$search%")
+                ->orWhere("Port", "LIKE", "%$search%")
+                ->orWhere("Category", "LIKE", "%$search%")
+                ->orWhere("Quantity", "LIKE", "%$search%");
             });
         }
         // hitung total data

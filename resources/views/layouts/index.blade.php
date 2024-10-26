@@ -52,7 +52,8 @@
     {{-- <!-- Auto Complete CSS --> --}}
     <link rel="stylesheet" href="{{ asset('assets/libs/@tarekraafat/autocomplete.js/css/autoComplete.css') }}">
 
-
+    @livewireStyles
+    @livewireScripts
 </head>
 
 <body>
@@ -1606,7 +1607,7 @@
 <footer class="footer mt-auto py-3 bg-white text-center">
     <div class="container">
         <span class="text-muted"> Copyright © <span id="year"></span> <a
-                href="javascript:void(0);" class="text-dark fw-medium">Zynix</a>.
+                href="javascript:void(0);" class="text-dark fw-medium">Laraport</a>.
             Designed with <span class="bi bi-heart-fill text-danger"></span> by <a href="https://wcsrm.com/" target="_blank">
                 <span class="fw-medium text-primary">Spruko</span>
             </a> All
