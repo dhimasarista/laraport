@@ -11,7 +11,7 @@ class CreateImportExportTable extends Migration
             $table->uuid('ID')->primary(); // UUID sebagai primary key
             $table->string('Country'); // Kolom untuk Country
             $table->string('Product'); // Kolom untuk Product
-            $table->string('Shipping_Method'); // Kolom untuk Shipping_Method
+            $table->string('ShippingMethod'); // Kolom untuk Shipping_Method
             $table->string('Port'); // Kolom untuk Port
             $table->string('Category'); // Kolom untuk Category
             $table->integer('Quantity'); // Kolom untuk Quantity

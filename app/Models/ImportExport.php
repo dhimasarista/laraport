@@ -21,7 +21,7 @@ class ImportExport extends Model
         'ID',
         'Country',
         'Product',
-        'Shipping_Method',
+        'ShippingMethod',
         'Port',
         'Category',
         'Quantity',

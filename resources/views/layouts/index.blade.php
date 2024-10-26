@@ -1563,7 +1563,7 @@
             <ul class="main-menu">
                 <li class="slide__category"><span class="category-name">Dashboards</span></li>
                 <li class="slide">
-                    <a href="#" class="side-menu__item {{ request()->url() == route('data.index') ? "active" : "" }}">
+                    <a href="#" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M104,216V152h48v64h64V120a8,8,0,0,0-2.34-5.66l-80-80a8,8,0,0,0-11.32,0l-80,80A8,8,0,0,0,40,120v96Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
                         <span class="side-menu__label">Dashboard</span>
                     </a>
