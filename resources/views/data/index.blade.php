@@ -1,6 +1,9 @@
 @extends('layouts/index')
 @section('body')
     {{-- <!-- Page Header --> --}}
+    @php
+        $idTable = "X".bin2hex(random_bytes(8));
+    @endphp
     <div class="my-4 page-header-breadcrumb d-flex align-items-center justify-content-between flex-wrap gap-2">
         <div>
             <h1 class="page-title fw-medium fs-18 mb-2">Table</h1>
@@ -33,7 +36,7 @@
                     <div id="loading-overlay" style="display:none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.7); z-index: 10; text-align: center; line-height: 100px;">
                       </div>
                     <div class="table-responsive">
-                        <table id="table-dt" class="table table-bordered text-nowrap w-100">
+                        <table id="{{$idTable}}" class="table table-bordered text-nowrap w-100">
                             <thead>
                                 <tr>
                                     <th>Country</th>
@@ -67,7 +70,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script>
         // file export datatable
-        const table = $('#table-dt').DataTable({
+        const table = $('#{{$idTable}}').DataTable({
             dom: 'Bfrtip',
             buttons: [
                 'copy', 'csv', 'excel', 'pdf', 'print'
