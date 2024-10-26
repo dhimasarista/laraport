@@ -4,7 +4,7 @@
 
 <head>
 
-    <!-- Meta Data -->
+    {{-- <!-- Meta Data --> --}}
     <meta charset="UTF-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,49 +13,49 @@
     <meta name="Author" content="Wcsrm Software Private Limited">
 	<meta name="keywords" content="bootstrap template, admin panel bootstrap, bootstrap dashboard, admin, admin dashboard template, dashboard template, html css templates, dashboard, template dashboard,  bootstrap dashboard template, dashboard html css, bootstrap admin dashboard,  bootstrap admin, dashboard template, bootstrap5 admin template">
     
-    <!-- Favicon -->
-    <link rel="icon" href="../assets/images/brand-logos/favicon.ico" type="image/x-icon">
+    {{-- <!-- Favicon --> --}}
+    <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.ico" type="ima') }}ge/x-icon">
     
-    <!-- Choices JS -->
-    <script src="../assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    {{-- <!-- Choices JS --> --}}
+    <script src="{{ asset('assets/libs/choices.js/public/assets/scripts/choices.min.js') }}"></script>
 
-    <!-- Main Theme Js -->
-    <script src="../assets/js/main.js"></script>
+    {{-- <!-- Main Theme Js --> --}}
+    <script src="{{ asset('assets/js/main.js') }}"></script>
     
-    <!-- Bootstrap Css -->
-    <link id="style" href="../assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    {{-- <!-- Bootstrap Css --> --}}
+    <link id="style" href="{{ asset('assets/libs/bootstrap/css/bootstrap.min.css" rel="st') }}ylesheet" >
 
-    <!-- Style Css -->
-    <link href="../assets/css/styles.css" rel="stylesheet" >
+    {{-- <!-- Style Css --> --}}
+    <link href="{{ asset('assets/css/styles.css" rel="st') }}ylesheet" >
 
-    <!-- Icons Css -->
-    <link href="../assets/css/icons.css" rel="stylesheet" >
+    {{-- <!-- Icons Css --> --}}
+    <link href="{{ asset('assets/css/icons.css" rel="st') }}ylesheet" >
 
-    <!-- Node Waves Css -->
-    <link href="../assets/libs/node-waves/waves.min.css" rel="stylesheet" > 
+    {{-- <!-- Node Waves Css --> --}}
+    <link href="{{ asset('assets/libs/node-waves/waves.min.css" rel="sty') }}lesheet" > 
 
-    <!-- Simplebar Css -->
-    <link href="../assets/libs/simplebar/simplebar.min.css" rel="stylesheet" >
+    {{-- <!-- Simplebar Css --> --}}
+    <link href="{{ asset('assets/libs/simplebar/simplebar.min.css" rel="st') }}ylesheet" >
     
-    <!-- Color Picker Css -->
-    <link rel="stylesheet" href="../assets/libs/flatpickr/flatpickr.min.css">
-    <link rel="stylesheet" href="../assets/libs/@simonwep/pickr/themes/nano.min.css">
+    {{-- <!-- Color Picker Css --> --}}
+    <link rel="stylesheet" href="{{ asset('assets/libs/flatpickr/flatpick') }}r.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/libs/@simonwep/pickr/themes/nan') }}o.min.css">
 
-    <!-- Choices Css -->
-    <link rel="stylesheet" href="../assets/libs/choices.js/public/assets/styles/choices.min.css">
+    {{-- <!-- Choices Css --> --}}
+    <link rel="stylesheet" href="{{ asset('assets/libs/choices.js/public/assets/styles/choice') }}s.min.css">
 
-    <!-- FlatPickr CSS -->
-    <link rel="stylesheet" href="../assets/libs/flatpickr/flatpickr.min.css">
+    {{-- <!-- FlatPickr CSS --> --}}
+    <link rel="stylesheet" href="{{ asset('assets/libs/flatpickr/flatpick') }}r.min.css">
 
-    <!-- Auto Complete CSS -->
-    <link rel="stylesheet" href="../assets/libs/@tarekraafat/autocomplete.js/css/autoComplete.css">
+    {{-- <!-- Auto Complete CSS --> --}}
+    <link rel="stylesheet" href="{{ asset('assets/libs/@tarekraafat/autocomplete.js/css/autoCom') }}plete.css">
 
 
 </head>
 
 <body>
 
-    <!-- Start Switcher -->
+    {{-- <!-- Start Switcher --> --}}
 <div class="offcanvas offcanvas-end" tabindex="-1" id="switcher-canvas" aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header border-bottom d-block p-0">
         <div class="d-flex align-items-center justify-content-between p-3">
@@ -525,41 +525,41 @@
         </div>
     </div>
 </div>
-<!-- End Switcher -->
+{{-- <!-- End Switcher --> --}}
 
 
-     <!-- Loader -->
+     {{-- <!-- Loader --> --}}
 <div id="loader" >
-    <img src="../assets/images/media/loader.svg" alt="">
+    <img src="{{ asset('assets/images/media/loader.s') }}vg" alt="">
 </div>
-<!-- Loader -->
+{{-- <!-- Loader --> --}}
 
     <div class="page">
-         <!-- app-header -->
+         {{-- <!-- app-header --> --}}
 <header class="app-header sticky" id="header">
 
-    <!-- Start::main-header-container -->
+    {{-- <!-- Start::main-header-container --> --}}
     <div class="main-header-container container-fluid">
 
-        <!-- Start::header-content-left -->
+        {{-- <!-- Start::header-content-left --> --}}
         <div class="header-content-left">
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <div class="header-element">
                 <div class="horizontal-logo">
                     <a href="index.html" class="header-logo">
-                        <img src="../assets/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo">
-                        <img src="../assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo">
-                        <img src="../assets/images/brand-logos/desktop-dark.png" alt="logo" class="desktop-dark">
-                        <img src="../assets/images/brand-logos/toggle-dark.png" alt="logo" class="toggle-dark">
+                        <img src="{{ asset('assets/images/brand-logos/desktop-logo.png" alt="logo" class="des') }}ktop-logo">
+                        <img src="{{ asset('assets/images/brand-logos/toggle-logo.png" alt="logo" class="to') }}ggle-logo">
+                        <img src="{{ asset('assets/images/brand-logos/desktop-dark.png" alt="logo" class="des') }}ktop-dark">
+                        <img src="{{ asset('assets/images/brand-logos/toggle-dark.png" alt="logo" class="to') }}ggle-dark">
                     </a>
                 </div>
             </div>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <div class="header-element">
-                <!-- Start::header-link -->
+                {{-- <!-- Start::header-link --> --}}
                 <a aria-label="Hide Sidebar" class="sidemenu-toggle header-link" data-bs-toggle="sidebar"
                     href="javascript:void(0);">
                     <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon menu-btn" width="32" height="32"
@@ -575,31 +575,31 @@
                         </path>
                     </svg>
                 </a>
-                <!-- End::header-link -->
+                {{-- <!-- End::header-link --> --}}
             </div>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
 
         </div>
-        <!-- End::header-content-left -->
+        {{-- <!-- End::header-content-left --> --}}
 
-        <!-- Start::header-content-right -->
+        {{-- <!-- Start::header-content-right --> --}}
         <ul class="header-content-right">
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <li class="header-element d-md-none d-block">
                 <a href="javascript:void(0);" class="header-link" data-bs-toggle="modal"
                     data-bs-target="#header-responsive-search">
-                    <!-- Start::header-link-icon -->
+                    {{-- <!-- Start::header-link-icon --> --}}
                     <i class="bi bi-search header-link-icon"></i>
-                    <!-- End::header-link-icon -->
+                    {{-- <!-- End::header-link-icon --> --}}
                 </a>
             </li>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <li class="header-element search-dropdown dropdown d-md-block d-none">
-                <!-- Start::header-link|dropdown-toggle -->
+                {{-- <!-- Start::header-link|dropdown-toggle --> --}}
                 <a href="javascript:void(0);" class="header-link dropdown-toggle" data-bs-auto-close="outside"
                     data-bs-toggle="dropdown">
                     <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon" width="32" height="32"
@@ -613,23 +613,23 @@
                     data-popper-placement="none">
                     <li class="px-3 py-2">
                         <div class="header-element header-search d-md-block d-none my-auto">
-                            <!-- Start::header-link -->
+                            {{-- <!-- Start::header-link --> --}}
                             <input type="text" class="header-search-bar form-control" id="header-search"
                                 placeholder="Search for Results..." spellcheck=false autocomplete="off"
                                 autocapitalize="off">
                             <a href="javascript:void(0);" class="header-search-icon border-0">
                                 <i class="bi bi-search"></i>
                             </a>
-                            <!-- End::header-link -->
+                            {{-- <!-- End::header-link --> --}}
                         </div>
                     </li>
                 </ul>
             </li>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <li class="header-element country-selector dropdown">
-                <!-- Start::header-link|dropdown-toggle -->
+                {{-- <!-- Start::header-link|dropdown-toggle --> --}}
                 <a href="javascript:void(0);" class="header-link dropdown-toggle" data-bs-auto-close="outside"
                     data-bs-toggle="dropdown">
                     <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon" viewBox="0 0 256 256">
@@ -648,7 +648,7 @@
                             stroke-linejoin="round" stroke-width="16" />
                     </svg>
                 </a>
-                <!-- End::header-link|dropdown-toggle -->
+                {{-- <!-- End::header-link|dropdown-toggle --> --}}
                 <ul class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
                     <li>
                         <div class="py-2 px-3">
@@ -661,7 +661,7 @@
                             href="javascript:void(0);">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-rounded avatar-xs lh-1 me-2">
-                                    <img src="../assets/images/flags/us_flag.jpg" alt="img">
+                                    <img src="{{ asset('assets/images/flags/us_flag.jpg"') }} alt="img">
                                 </span>
                                 English
                             </div>
@@ -673,7 +673,7 @@
                             href="javascript:void(0);">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-rounded avatar-xs lh-1 me-2">
-                                    <img src="../assets/images/flags/spain_flag.jpg" alt="img">
+                                    <img src="{{ asset('assets/images/flags/spain_flag.jpg"') }} alt="img">
                                 </span>
                                 español
                             </div>
@@ -685,7 +685,7 @@
                             href="javascript:void(0);">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-rounded avatar-xs lh-1 me-2">
-                                    <img src="../assets/images/flags/french_flag.jpg" alt="img">
+                                    <img src="{{ asset('assets/images/flags/french_flag.jpg"') }} alt="img">
                                 </span>
                                 français
                             </div>
@@ -697,7 +697,7 @@
                             href="javascript:void(0);">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-rounded avatar-xs lh-1 me-2">
-                                    <img src="../assets/images/flags/uae_flag.jpg" alt="img">
+                                    <img src="{{ asset('assets/images/flags/uae_flag.jpg"') }} alt="img">
                                 </span>
                                 عربي
                             </div>
@@ -709,7 +709,7 @@
                             href="javascript:void(0);">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-rounded avatar-xs lh-1 me-2">
-                                    <img src="../assets/images/flags/germany_flag.jpg" alt="img">
+                                    <img src="{{ asset('assets/images/flags/germany_flag.jpg"') }} alt="img">
                                 </span>
                                 DE
                             </div>
@@ -721,7 +721,7 @@
                             href="javascript:void(0);">
                             <div class="d-flex align-items-center">
                                 <span class="avatar avatar-rounded avatar-xs lh-1 me-2">
-                                    <img src="../assets/images/flags/china_flag.jpg" alt="img">
+                                    <img src="{{ asset('assets/images/flags/china_flag.jpg"') }} alt="img">
                                 </span>
                                 中国人
                             </div>
@@ -730,24 +730,24 @@
                     </li>
                 </ul>
             </li>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <li class="header-element header-theme-mode">
-                <!-- Start::header-link|layout-setting -->
+                {{-- <!-- Start::header-link|layout-setting --> --}}
                 <a href="javascript:void(0);" class="header-link layout-setting">
                     <span class="light-layout">
-                        <!-- Start::header-link-icon -->
+                        {{-- <!-- Start::header-link-icon --> --}}
                         <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon" viewBox="0 0 256 256">
                             <rect width="256" height="256" fill="none" />
                             <path d="M108.11,28.11A96.09,96.09,0,0,0,227.89,147.89,96,96,0,1,1,108.11,28.11Z"
                                 fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="16" />
                         </svg>
-                        <!-- End::header-link-icon -->
+                        {{-- <!-- End::header-link-icon --> --}}
                     </span>
                     <span class="dark-layout">
-                        <!-- Start::header-link-icon -->
+                        {{-- <!-- Start::header-link-icon --> --}}
                         <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon" viewBox="0 0 256 256">
                             <rect width="256" height="256" fill="none" />
                             <line x1="128" y1="40" x2="128" y2="32" fill="none" stroke="currentColor"
@@ -769,16 +769,16 @@
                             <line x1="216" y1="128" x2="224" y2="128" fill="none" stroke="currentColor"
                                 stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
                         </svg>
-                        <!-- End::header-link-icon -->
+                        {{-- <!-- End::header-link-icon --> --}}
                     </span>
                 </a>
-                <!-- End::header-link|layout-setting -->
+                {{-- <!-- End::header-link|layout-setting --> --}}
             </li>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <li class="header-element cart-dropdown dropdown">
-                <!-- Start::header-link|dropdown-toggle -->
+                {{-- <!-- Start::header-link|dropdown-toggle --> --}}
                 <a href="javascript:void(0);" class="header-link dropdown-toggle" data-bs-auto-close="outside"
                     data-bs-toggle="dropdown">
                     <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon" viewBox="0 0 256 256">
@@ -790,8 +790,8 @@
                     </svg>
                     <span class="badge bg-primary rounded-pill header-icon-badge" id="cart-icon-badge">5</span>
                 </a>
-                <!-- End::header-link|dropdown-toggle -->
-                <!-- Start::main-header-dropdown -->
+                {{-- <!-- End::header-link|dropdown-toggle --> --}}
+                {{-- <!-- Start::main-header-dropdown --> --}}
                 <div class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
                     <div class="p-3">
                         <div class="d-flex align-items-center justify-content-between">
@@ -806,7 +806,7 @@
                                 <div class="d-flex align-items-center  gap-3 mb-2">
                                     <div class="lh-1">
                                         <span class="avatar avatar-xl p-1 bg-primary-transparent">
-                                            <img src="../assets/images/ecommerce/png/1.png" alt="img">
+                                            <img src="{{ asset('assets/images/ecommerce/png/1.png"') }} alt="img">
                                         </span>
                                     </div>
                                     <div class="flex-fill">
@@ -851,7 +851,7 @@
                                 <div class="d-flex align-items-center  gap-3 mb-2">
                                     <div class="lh-1">
                                         <span class="avatar avatar-xl p-1 bg-secondary-transparent">
-                                            <img src="../assets/images/ecommerce/png/14.png" alt="img">
+                                            <img src="{{ asset('assets/images/ecommerce/png/14.png"') }} alt="img">
                                         </span>
                                     </div>
                                     <div class="flex-fill">
@@ -894,7 +894,7 @@
                                 <div class="d-flex align-items-center  gap-3 mb-2">
                                     <div class="lh-1">
                                         <span class="avatar avatar-xl p-1 bg-success-transparent">
-                                            <img src="../assets/images/ecommerce/png/33.png" alt="img">
+                                            <img src="{{ asset('assets/images/ecommerce/png/33.png"') }} alt="img">
                                         </span>
                                     </div>
                                     <div class="flex-fill">
@@ -937,7 +937,7 @@
                                 <div class="d-flex align-items-center  gap-3 mb-2">
                                     <div class="lh-1">
                                         <span class="avatar avatar-xl p-1 bg-warning-transparent">
-                                            <img src="../assets/images/ecommerce/png/34.png" alt="img">
+                                            <img src="{{ asset('assets/images/ecommerce/png/34.png"') }} alt="img">
                                         </span>
                                     </div>
                                     <div class="flex-fill">
@@ -980,7 +980,7 @@
                                 <div class="d-flex align-items-center  gap-3 mb-2">
                                     <div class="lh-1">
                                         <span class="avatar avatar-xl p-1 bg-pink-transparent">
-                                            <img src="../assets/images/ecommerce/png/31.png" alt="img">
+                                            <img src="{{ asset('assets/images/ecommerce/png/31.png"') }} alt="img">
                                         </span>
                                     </div>
                                     <div class="flex-fill">
@@ -1037,13 +1037,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- End::main-header-dropdown -->
+                {{-- <!-- End::main-header-dropdown --> --}}
             </li>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <li class="header-element notifications-dropdown d-xl-block d-none dropdown">
-                <!-- Start::header-link|dropdown-toggle -->
+                {{-- <!-- Start::header-link|dropdown-toggle --> --}}
                 <a href="javascript:void(0);" class="header-link dropdown-toggle" data-bs-toggle="dropdown"
                     data-bs-auto-close="outside" id="messageDropdown" aria-expanded="false">
                     <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon animate-bell" viewBox="0 0 256 256">
@@ -1061,8 +1061,8 @@
                     </svg>
                     <span class="header-icon-pulse bg-secondary rounded pulse pulse-secondary"></span>
                 </a>
-                <!-- End::header-link|dropdown-toggle -->
-                <!-- Start::main-header-dropdown -->
+                {{-- <!-- End::header-link|dropdown-toggle --> --}}
+                {{-- <!-- Start::main-header-dropdown --> --}}
                 <div class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
                     <div class="p-3">
                         <div class="d-flex align-items-center justify-content-between">
@@ -1096,7 +1096,7 @@
                                     <div class="d-flex align-items-start">
                                         <div class="pe-2 lh-1"> <span
                                                 class="avatar avatar-md avatar-rounded svg-white">
-                                                <img src="../assets/images/faces/2.jpg" alt="img"> </span>
+                                                <img src="{{ asset('assets/images/faces/2.jpg" alt="im') }}g"> </span>
                                         </div>
                                         <div class="flex-grow-1 d-flex align-items-start justify-content-between">
                                             <div>
@@ -1138,7 +1138,7 @@
                                     <div class="d-flex align-items-start">
                                         <div class="pe-2 lh-1"> <span
                                                 class="avatar avatar-md avatar-rounded svg-white">
-                                                <img src="../assets/images/faces/6.jpg" alt="img"> </span>
+                                                <img src="{{ asset('assets/images/faces/6.jpg" alt="im') }}g"> </span>
                                         </div>
                                         <div class="flex-grow-1 d-flex align-items-start justify-content-between">
                                             <div>
@@ -1178,7 +1178,7 @@
                                     <div class="d-flex align-items-start">
                                         <div class="pe-2 lh-1"> <span
                                                 class="avatar avatar-md avatar-rounded svg-white">
-                                                <img src="../assets/images/faces/14.jpg" alt="img"> </span>
+                                                <img src="{{ asset('assets/images/faces/14.jpg" alt="im') }}g"> </span>
                                         </div>
                                         <div class="flex-grow-1 d-flex align-items-start justify-content-between">
                                             <div>
@@ -1432,13 +1432,13 @@
                         </div>
                     </div>
                 </div>
-                <!-- End::main-header-dropdown -->
+                {{-- <!-- End::main-header-dropdown --> --}}
             </li>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <li class="header-element header-fullscreen">
-                <!-- Start::header-link -->
+                {{-- <!-- Start::header-link --> --}}
                 <a onclick="openFullscreen();" href="javascript:void(0);" class="header-link">
                     <svg xmlns="http://www.w3.org/2000/svg" class="full-screen-open header-link-icon"
                         viewBox="0 0 256 256">
@@ -1465,25 +1465,25 @@
                             stroke-linecap="round" stroke-linejoin="round" stroke-width="16" />
                     </svg>
                 </a>
-                <!-- End::header-link -->
+                {{-- <!-- End::header-link --> --}}
             </li>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <li class="header-element dropdown">
-                <!-- Start::header-link|dropdown-toggle -->
+                {{-- <!-- Start::header-link|dropdown-toggle --> --}}
                 <a href="javascript:void(0);" class="header-link dropdown-toggle" id="mainHeaderProfile"
                     data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                     <div class="d-flex align-items-center">
                         <div class="me-xl-2 me-0">
-                            <img src="../assets/images/faces/2.jpg" alt="img" class="avatar avatar-sm avatar-rounded">
+                            <img src="{{ asset('assets/images/faces/2.jpg" alt="img" class="avatar avatar-sm avata') }}r-rounded">
                         </div>
                         <div class="d-xl-block d-none lh-1">
                             <span class="fw-medium lh-1">Mr. Jack</span>
                         </div>
                     </div>
                 </a>
-                <!-- End::header-link|dropdown-toggle -->
+                {{-- <!-- End::header-link|dropdown-toggle --> --}}
                 <ul class="main-header-dropdown dropdown-menu pt-0 overflow-hidden header-profile-dropdown dropdown-menu-end"
                     aria-labelledby="mainHeaderProfile">
                     <li>
@@ -1509,11 +1509,11 @@
                     </li>
                 </ul>
             </li>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
-            <!-- Start::header-element -->
+            {{-- <!-- Start::header-element --> --}}
             <li class="header-element">
-                <!-- Start::header-link|switcher-icon -->
+                {{-- <!-- Start::header-link|switcher-icon --> --}}
                 <a href="javascript:void(0);" class="header-link switcher-icon" data-bs-toggle="offcanvas"
                     data-bs-target="#switcher-canvas">
                     <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon" viewBox="0 0 256 256">
@@ -1526,46 +1526,46 @@
                             stroke-width="16" />
                     </svg>
                 </a>
-                <!-- End::header-link|switcher-icon -->
+                {{-- <!-- End::header-link|switcher-icon --> --}}
             </li>
-            <!-- End::header-element -->
+            {{-- <!-- End::header-element --> --}}
 
         </ul>
-        <!-- End::header-content-right -->
+        {{-- <!-- End::header-content-right --> --}}
 
     </div>
-    <!-- End::main-header-container -->
+    {{-- <!-- End::main-header-container --> --}}
 
 </header>
-<!-- /app-header -->
-         <!-- Start::app-sidebar -->
+{{-- <!-- /app-header --> --}}
+         {{-- <!-- Start::app-sidebar --> --}}
 <aside class="app-sidebar sticky" id="sidebar">
 
-    <!-- Start::main-sidebar-header -->
+    {{-- <!-- Start::main-sidebar-header --> --}}
     <div class="main-sidebar-header">
         <a href="index.html" class="header-logo">
-            <img src="../assets/images/brand-logos/desktop-logo.png" alt="logo" class="desktop-logo">
-            <img src="../assets/images/brand-logos/toggle-dark.png" alt="logo" class="toggle-dark">
-            <img src="../assets/images/brand-logos/desktop-dark.png" alt="logo" class="desktop-dark">
-            <img src="../assets/images/brand-logos/toggle-logo.png" alt="logo" class="toggle-logo">
+            <img src="{{ asset('assets/images/brand-logos/desktop-logo.png" alt="logo" class="des') }}ktop-logo">
+            <img src="{{ asset('assets/images/brand-logos/toggle-dark.png" alt="logo" class="to') }}ggle-dark">
+            <img src="{{ asset('assets/images/brand-logos/desktop-dark.png" alt="logo" class="des') }}ktop-dark">
+            <img src="{{ asset('assets/images/brand-logos/toggle-logo.png" alt="logo" class="to') }}ggle-logo">
         </a>
     </div>
-    <!-- End::main-sidebar-header -->
+    {{-- <!-- End::main-sidebar-header --> --}}
 
-    <!-- Start::main-sidebar -->
+    {{-- <!-- Start::main-sidebar --> --}}
     <div class="main-sidebar" id="sidebar-scroll">
 
-        <!-- Start::nav -->
+        {{-- <!-- Start::nav --> --}}
         <nav class="main-menu-container nav nav-pills flex-column sub-open">
             <div class="slide-left" id="slide-left">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24"> <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path> </svg>
             </div>
             <ul class="main-menu">
-                <!-- Start::slide__category -->
+                {{-- <!-- Start::slide__category --> --}}
                 <li class="slide__category"><span class="category-name">Dashboards</span></li>
-                <!-- End::slide__category -->
+                {{-- <!-- End::slide__category --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <i class="ri-arrow-right-s-line side-menu__angle"></i>
@@ -1626,13 +1626,13 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide__category -->
+                {{-- <!-- Start::slide__category --> --}}
                 <li class="slide__category"><span class="category-name">Web Apps</span></li>
-                <!-- End::slide__category -->
+                {{-- <!-- End::slide__category --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="48" y="48" width="64" height="64" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><rect x="144" y="48" width="64" height="64" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><rect x="48" y="144" width="64" height="64" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><rect x="144" y="144" width="64" height="64" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -1807,9 +1807,9 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polyline points="32 176 128 232 224 176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="32 128 128 184 224 128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polygon points="32 80 128 136 224 80 128 24 32 80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -1846,13 +1846,13 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide__category -->
+                {{-- <!-- Start::slide__category --> --}}
                 <li class="slide__category"><span class="category-name">Crafted</span></li>
-                <!-- End::slide__category -->
+                {{-- <!-- End::slide__category --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="40" y="88" width="176" height="128" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="128" cy="152" r="12"/><path d="M88,88V56a40,40,0,0,1,80,0V88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -1943,9 +1943,9 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><circle cx="128" cy="128" r="96" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="16"/><line x1="128" y1="136" x2="128" y2="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="128" cy="172" r="12"/></svg>
@@ -1967,9 +1967,9 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="32" y="48" width="192" height="160" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="80" y1="96" x2="176" y2="96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="80" y1="128" x2="176" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="80" y1="160" x2="176" y2="160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -2066,13 +2066,13 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide__category -->
+                {{-- <!-- Start::slide__category --> --}}
                 <li class="slide__category"><span class="category-name">Modules</span></li>
-                <!-- End::slide__category -->
+                {{-- <!-- End::slide__category --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M32,216V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V216l-32-16-32,16-32-16L96,216,64,200Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="144" y1="112" x2="192" y2="112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="144" y1="144" x2="192" y2="144" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><rect x="64" y="96" width="48" height="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -2139,9 +2139,9 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="24" y="56" width="208" height="40" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M216,96v96a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="104" y1="136" x2="152" y2="136" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -2211,9 +2211,9 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M40.49,205.52,93,61.14a7.79,7.79,0,0,1,12.84-2.85l91.88,91.88A7.79,7.79,0,0,1,194.86,163L50.48,215.51A7.79,7.79,0,0,1,40.49,205.52Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M168,72s0-24,24-24,24-24,24-24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="144" y1="16" x2="144" y2="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="216" y1="112" x2="232" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="216" y1="80" x2="240" y2="72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="78.09" y1="102.09" x2="153.91" y2="177.91" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="101.11" y1="197.11" x2="58.89" y2="154.89" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -2271,9 +2271,9 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><circle cx="128" cy="96" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="128" cy="96" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="176 160 176 240 127.99 216 80 240 80 160.01" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -2319,22 +2319,22 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide">
                     <a href="widgets.html" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="32" y="80" width="192" height="48" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M208,128v72a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="128" y1="80" x2="128" y2="208" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M176.79,31.21c9.34,9.34,9.89,25.06,0,33.82C159.88,80,128,80,128,80s0-31.88,15-48.79C151.73,21.32,167.45,21.87,176.79,31.21Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M79.21,31.21c-9.34,9.34-9.89,25.06,0,33.82C96.12,80,128,80,128,80s0-31.88-15-48.79C104.27,21.32,88.55,21.87,79.21,31.21Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
                         <span class="side-menu__label">Widgets</span>
                     </a>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
                 
-                <!-- Start::slide__category -->
+                {{-- <!-- Start::slide__category --> --}}
                 <li class="slide__category"><span class="category-name">Tools & Components</span></li>
-                <!-- End::slide__category -->
+                {{-- <!-- End::slide__category --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><circle cx="128" cy="128" r="96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polygon points="176 80 112 112 80 176 144 144 176 80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -2356,18 +2356,18 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide">
                     <a href="icons.html" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polyline points="48 139.59 48 216 208 216 208 139.59" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M54,40H202a8,8,0,0,1,7.69,5.8L224,96H32L46.34,45.8A8,8,0,0,1,54,40Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M96,96v16a32,32,0,0,1-64,0V96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M160,96v16a32,32,0,0,1-64,0V96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M224,96v16a32,32,0,0,1-64,0V96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
                         <span class="side-menu__label">Icons</span>
                     </a>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                 <!-- Start::slide -->
+                 {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polyline points="224 208 32 208 32 48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="200 72 128 144 96 112 32 176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><polyline points="200 112 200 72 160 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -2447,9 +2447,9 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
-                <!-- Start::slide -->
+                {{-- <!-- Start::slide --> --}}
                 <li class="slide has-sub">
                     <a href="javascript:void(0);" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M32,56H224a0,0,0,0,1,0,0V192a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V56A0,0,0,0,1,32,56Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="32" y1="104" x2="224" y2="104" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="32" y1="152" x2="224" y2="152" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="88" y1="104" x2="88" y2="200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -2471,65 +2471,31 @@
                         </li>
                     </ul>
                 </li>
-                <!-- End::slide -->
+                {{-- <!-- End::slide --> --}}
 
             </ul>
             <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24"> <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path> </svg></div>
         </nav>
-        <!-- End::nav -->
+        {{-- <!-- End::nav --> --}}
 
     </div>
-    <!-- End::main-sidebar -->
+    {{-- <!-- End::main-sidebar --> --}}
 
 </aside>
-<!-- End::app-sidebar -->
+{{-- <!-- End::app-sidebar --> --}}
 
-        <!-- Start::app-content -->
+        {{-- <!-- Start::app-content --> --}}
         <div class="main-content app-content">
             <div class="container-fluid">
 
-                <!-- Page Header -->
-                <div class="my-4 page-header-breadcrumb d-flex align-items-center justify-content-between flex-wrap gap-2">
-                    <div>
-                        <h1 class="page-title fw-medium fs-18 mb-2">Empty</h1>
-                        <div class="">
-                            <nav>
-                                <ol class="breadcrumb mb-0">
-                                    <li class="breadcrumb-item"><a href="javascript:void(0);">Pages</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Empty</li>
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="btn-list">
-                        <button class="btn btn-primary-light btn-wave me-2">
-                            <i class="bx bx-crown align-middle"></i> Plan Upgrade
-                        </button>
-                        <button class="btn btn-secondary-light btn-wave me-0">
-                            <i class="ri-upload-cloud-line align-middle"></i> Export Report
-                        </button>
-                    </div>
-                </div>
-                <!-- Page Header Close -->
-
-                <!-- Start::row-1 -->
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="card custom-card">
-                            <div class="card-body">
-                                <h6 class="mb-0">EMPTY CARD</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End::row-1 -->
+                @yield('body')
 
             </div>
         </div>
-        <!-- End::app-content -->
+        {{-- <!-- End::app-content --> --}}
 
         
-        <!-- Footer Start -->
+        {{-- <!-- Footer Start --> --}}
 <footer class="footer mt-auto py-3 bg-white text-center">
     <div class="container">
         <span class="text-muted"> Copyright © <span id="year"></span> <a
@@ -2542,7 +2508,7 @@
         </span>
     </div>
 </footer>
-<!-- Footer End -->
+{{-- <!-- Footer End --> --}}
          <div class="modal fade" id="header-responsive-search" tabindex="-1" aria-labelledby="header-responsive-search" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -2561,48 +2527,48 @@
     </div>
 
    
-<!-- Scroll To Top -->
+{{-- <!-- Scroll To Top --> --}}
 <div class="scrollToTop">
     <span class="arrow lh-1"><i class="ti ti-arrow-big-up fs-16"></i></span>
 </div>
 <div id="responsive-overlay"></div>
-<!-- Scroll To Top -->
+{{-- <!-- Scroll To Top --> --}}
 
-<!-- Popper JS -->
-<script src="../assets/libs/@popperjs/core/umd/popper.min.js"></script>
+{{-- <!-- Popper JS --> --}}
+<script src="{{ asset('assets/libs/@popperjs/core/umd/popper.min.js') }}"></script>
 
-<!-- Bootstrap JS -->
-<script src="../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+{{-- <!-- Bootstrap JS --> --}}
+<script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
-<!-- Defaultmenu JS -->
-<script src="../assets/js/defaultmenu.min.js"></script>
+{{-- <!-- Defaultmenu JS --> --}}
+<script src="{{ asset('assets/js/defaultmenu.min.js') }}"></script>
 
-<!-- Node Waves JS-->
-<script src="../assets/libs/node-waves/waves.min.js"></script>
+{{-- <!-- Node Waves JS--> --}}
+<script src="{{ asset('assets/libs/node-waves/waves.min.js') }}"></script>
 
-<!-- Sticky JS -->
-<script src="../assets/js/sticky.js"></script>
+{{-- <!-- Sticky JS --> --}}
+<script src="{{ asset('assets/js/sticky.js') }}"></script>
 
-<!-- Simplebar JS -->
-<script src="../assets/libs/simplebar/simplebar.min.js"></script>
-<script src="../assets/js/simplebar.js"></script>
+{{-- <!-- Simplebar JS --> --}}
+<script src="{{ asset('assets/libs/simplebar/simplebar.min.js') }}"></script>
+<script src="{{ asset('assets/js/simplebar.js') }}"></script>
 
-<!-- Auto Complete JS -->
-<script src="../assets/libs/@tarekraafat/autocomplete.js/autoComplete.min.js"></script>
+{{-- <!-- Auto Complete JS --> --}}
+<script src="{{ asset('assets/libs/@tarekraafat/autocomplete.js/autoComplete.min.js') }}"></script>
 
-<!-- Color Picker JS -->
-<script src="../assets/libs/@simonwep/pickr/pickr.es5.min.js"></script>
+{{-- <!-- Color Picker JS --> --}}
+<script src="{{ asset('assets/libs/@simonwep/pickr/pickr.es5.min.js') }}"></script>
 
-<!-- Date & Time Picker JS -->
-<script src="../assets/libs/flatpickr/flatpickr.min.js"></script>
+{{-- <!-- Date & Time Picker JS --> --}}
+<script src="{{ asset('assets/libs/flatpickr/flatpickr.min.js') }}"></script>
 
 
    
-<!-- Custom-Switcher JS -->
-<script src="../assets/js/custom-switcher.min.js"></script>
+{{-- <!-- Custom-Switcher JS --> --}}
+<script src="{{ asset('assets/js/custom-switcher.min.js') }}"></script>
 
-    <!-- Custom JS -->
-    <script src="../assets/js/custom.js"></script>
+    {{-- <!-- Custom JS --> --}}
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
 
 </body>
 
