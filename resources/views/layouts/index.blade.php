@@ -15,12 +15,14 @@
     
     {{-- <!-- Favicon --> --}}
     <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.ico') }}" type="image/x-icon">
-    
     {{-- <!-- Choices JS --> --}}
     <script src="{{ asset('assets/libs/choices.js/public/assets/scripts/choices.min.js') }}"></script>
 
     {{-- <!-- Main Theme Js --> --}}
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('scripts/script.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('scripts/TopLoaderService/TopLoaderService.css') }}">
+    <script src="{{ asset('scripts/TopLoaderService/TopLoaderService.js') }}"></script>
     
     {{-- <!-- Bootstrap Css --> --}}
     <link id="style" href='{{ asset("assets/libs/bootstrap/css/bootstrap.min.css") }}' rel="stylesheet" >

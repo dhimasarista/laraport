@@ -31,7 +31,7 @@
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table id="file-export" class="table table-bordered text-nowrap w-100">
+                        <table id="table-dt" class="table table-bordered text-nowrap w-100">
                             <thead>
                                 <tr>
                                     <th>Country</th>
@@ -64,7 +64,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script>
         // file export datatable
-        $('#file-export').DataTable({
+        const table = $('#table-dt').DataTable({
             dom: 'Bfrtip',
             buttons: [
                 'copy', 'csv', 'excel', 'pdf', 'print'
@@ -72,14 +72,27 @@
             language: {
                 searchPlaceholder: 'Search...',
                 sSearch: '',
-                processing: "Fetchin Data" 
+                // processing: "Fetching Data" 
             },
             scrollX: true,
             processing: true,
             serverSide: true,
             ajax: {
                 url: "{{ route('data.paginate') }}",
-                type: "GET"
+                type: "GET",
+                dataType: 'json',
+                dataSrc: function (json) {
+                    return json.data;
+                },
+                // success: function(response) {
+                //     console.log("Data berhasil diambil:", response);
+                // },
+                // error: function(xhr, status, error) {
+                //     console.error("Terjadi kesalahan:", error);
+                // },
+                // complete: function(xhr, status) {
+                //     console.log("Permintaan selesai dengan status:", status);
+                // }
             },
             columns: [{
                     data: 'Country',
@@ -128,6 +141,14 @@
                 }
             ],
         });
-        // file export datatable
+        table.on('preXhr.dt', function () {
+            $('#table-dt').hide();
+            TopLoaderService.start();
+        });
+        table.on('xhr.dt', function () {
+            $('#table-dt').show();
+            TopLoaderService.end();
+        });
+        table.on('draw.dt', function () {});
     </script>
 @endsection
