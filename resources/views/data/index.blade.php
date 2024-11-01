@@ -148,9 +148,11 @@
             ],
         });
         table.on('preXhr.dt', function () {
+            TopLoaderService.start();
             $('#loading-overlay').show();
         });
         table.on('xhr.dt', function () {
+            TopLoaderService.end();
             $('#loading-overlay').hide();
         });
         table.on('draw.dt', function () {});
